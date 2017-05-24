@@ -27,6 +27,7 @@ gulp.task("serve", ["sass"], function() {
 	});
 	gulp.watch("scss/*.scss", ["sass"]);
 	gulp.watch("main.css", ["prefix"]);
+	gulp.watch("index.js").on("change", browserSync.reload);
 	return gulp.watch("index.html").on("change", browserSync.reload);
 });
 

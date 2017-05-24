@@ -1,27 +1,26 @@
 body {
-  background-color: #ccc;
-  background-image: url("http://www.cellphonesguide.net/images/forum/wallpapers/material-design-wallpaper-017.jpg"); }
-
-.row {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 15px;
-  background-color: #3949ab;
-  text-shadow: 2px 2px 8px #000;
-  color: #fff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 5px 2px #000; }
-  .row img {
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px 2px #000; }
-  .row.on {
-    background-color: #43a047; }
-  .row.off {
-    background-color: #757575; }
-  .row.error {
-    background-color: #e53935; }
-  .row h5 {
-    padding-top: 34px;
-    color: #fff; }
+  background-color: #37474f;
+  padding: 15px; }
+  body .head {
+    padding: 30px; }
+    body .head h1 {
+      color: #fff; }
+  body .row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px; }
+    body .row img {
+      border-radius: 50%; }
+    body .row.on {
+      background-color: #43a047; }
+    body .row.off {
+      background-color: #757575; }
+    body .row.error {
+      background-color: #e53935; }
+    body .row h5 {
+      padding-top: 34px;
+      color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
